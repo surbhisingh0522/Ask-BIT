@@ -1,0 +1,30 @@
+.ask-bitBox{
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    border:1px solid lightgray;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ask-bitBox:hover{
+    border:1px solid gray;
+}
+.ask-bitBox_info{
+    display:flex;
+    align-items: center;
+}
+.ask-bitBox_info >h5{
+    color:rgb(129,129,129);
+    font-weight: 300;
+    margin-left:10px;
+}
+.ask-bitBox_askBIT{
+    display: flex;
+    margin-top: 8px;
+}
+.ask-bitBox_askBIT > p{
+   color:gray;
+   font-weight: bold;
+   font-size:large;
+}
